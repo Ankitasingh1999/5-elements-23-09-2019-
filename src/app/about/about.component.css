@@ -1,0 +1,27 @@
+.tx
+  {
+      color:navy
+  }
+  .bg
+  {
+   background-color:  #E9ECEF;
+  }
+  .image-responsive{
+    height: auto !important;
+    max-width:100% !important;
+  }
+
+  .video{
+    display: block;
+  }
+  @media only screen and (max-width:600px){
+    .image-responsive{
+      width: 40rem !important;
+      height: auto !important;
+    }
+.video{
+  display: none;
+}
+  }
+
+  
